@@ -1,0 +1,20 @@
+{
+    "Attributes" : {
+        "DoctorId" : {
+            "DisplayName" : "PatientId",
+            "AttributeType" : "6"		
+        },
+        "DoctorName" : {
+            "DisplayName" : "PatientName",
+            "AttributeType" : "3"		
+        },
+        "Age" : {
+            "DisplayName" : "Age",
+            "AttributeType" : "1"		
+        },
+        "Sex": {
+          "DisplayName": "Sex",
+          "AttributeType": "2"
+        }
+    }
+}

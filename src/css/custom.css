@@ -1,0 +1,52 @@
+/*-- custom rule override --*/
+
+.ms-Fabric >* {
+    font-Size: 18px !important
+}
+
+.ms-ComboBox {
+    height: 24px;
+}
+
+.ms-ComboBoxBasicExample {
+    max-width: 110px !important;
+}
+
+.ms-TextField-field {
+    font-size: 10px;
+}
+
+.ms-TextField-fieldGroup {
+    height: 24px;
+}
+
+.ms-ComboBox-Input {
+    font-size: 10px;
+    height: 12px;
+}
+
+.ms-Button {
+    font-size: 10px;
+    height: 24px;
+    min-width: auto;
+}
+
+.ms-ComboBox-CaretDown-button {
+    height: 24px;
+    width: 24px;
+}
+
+.ms-TextField-field {
+    min-width: 121px !important;
+}
+
+input[type=text] {
+    max-width: 109px !important;
+}
+
+.ms-IconExample {
+    font-size: 15px !important;
+    height: 0px !important;
+    width: 0px !important;
+    margin: 5px 15px !important;
+}

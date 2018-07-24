@@ -1,0 +1,50 @@
+{
+  "condition": "AND",
+  "rules": [
+    {
+      "model": "Patient",
+      "attribute": "PatientName",
+      "op": "EQUALS",
+      "value": "rama"
+    },
+    {
+      "model": "Patient",
+      "attribute": "Age",
+      "op": "GREATER",
+      "value": "25"
+    },
+    {
+      "condition": "OR",
+      "rules": [
+        {
+          "model": "Doctor",
+          "attribute": "DoctorName",
+          "op": "EQUALS",
+          "value": "something 1"
+        },
+        {
+          "condition": "AND",
+          "rules": [
+            {
+              "model": "Patient",
+              "attribute": "PatientName",
+              "op": "EQUALS",
+              "value": "something 2"
+            },
+            {
+              "condition": "OR",
+              "rules": [
+                {
+                  "model": "Patient",
+                  "attribute": "PatientName",
+                  "op": "EQUALS",
+                  "value": "somerthing 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

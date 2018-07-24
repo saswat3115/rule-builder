@@ -1,0 +1,29 @@
+{
+    "Attributes" : {
+        "PatientId" : {
+            "DisplayName" : "PatientId",
+            "AttributeType" : "6"		
+        },
+        "PatientName" : {
+            "DisplayName" : "PatientName",
+            "AttributeType" : "3"		
+        },
+        "Age" : {
+            "DisplayName" : "Age",
+            "AttributeType" : "1"		
+        },
+        "Sex": {
+          "DisplayName": "Sex",
+          "AttributeType": "2"
+        },
+        "MaritalStatus": {
+          "DisplayName": "MaritalStatus",
+          "AttributeType": "7"
+        },		
+        "Weight" : {
+            "DisplayName" : "Weight",
+            "AttributeType" : "5"	
+        }
+    }
+
+}

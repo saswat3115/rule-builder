@@ -1,0 +1,100 @@
+/* body {
+    padding: 5px
+} */
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    width: 100px;
+}
+
+.slick-prev {
+    left: 0px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 0px;
+    z-index: 1;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.btn-on {
+    /* background-color: blue; */
+    color: white;
+}
+
+.btn-off {
+    /* background-color: transparent; */
+    color: black;
+}
+
+.hidden {
+    display: none !important;
+}
+
+input[type=text] {
+    max-width: 120px;
+}
+
+select {
+    width: 124px;
+}
+
+#popup-div {
+    border: 3px solid Black;
+    border-radius: 2px;
+    text-align: left;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    margin-left: -70px;
+    margin-top: -50px;
+    z-index: 99;
+    color: white;
+    background-color: gray;
+    opacity: 1;
+    scroll-behavior: auto;
+    max-height: 400px;
+}
+
+.show-popup {
+    display: block;
+}
+
+.hide-popup {
+    display: none;
+}
+
+.get-rule {
+    text-align: center;
+}
+
+.div-taskbar {
+    min-height: 10px;
+    float: right;
+    margin-right: -10px;
+    margin-top: -22px;
+    padding: 2px;
+    /* color: white; */
+    font-size: 12px;
+}
+
+.collapse-content {
+    font-size: 12px;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
