@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.6.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "office-ui-fabric-react": "^6.20.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
